@@ -1,25 +1,25 @@
 {
   "active": true,
-  "hostname": "rdpfree-1",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "hostname": "g2g-2",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
     "cpu_threads": 4,
-    "disk_free_gb": 82.7,
-    "ram_gb": 16.0
+    "ram_gb": 16.0,
+    "disk_free_gb": 31.2
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-16T00:02:18Z",
-  "expires_at": "2026-10-16T05:57:18Z",
+  "started_at": "2026-10-16T13:08:41Z",
+  "expires_at": "2026-10-16T19:03:41Z",
   "duration_menit": 355,
-  "run_id": "38827103105",
+  "run_id": "38905568498",
   "run_attempt": "1",
-  "run_number": "1",
-  "run_url": "https://github.com/heyo23tkwia-max/Ia/actions/runs/38827103105",
+  "run_number": "2",
+  "run_url": "https://github.com/heyo23tkwia-max/Ia/actions/runs/38905568498",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -39,67 +39,19 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "100.127.172.60",
+      "hostname": "G2G-2",
+      "magicdns": "g2g-2.tail915674.ts.net.",
       "status": "ok",
-      "ip": "100.93.192.80",
-      "magicdns": "rdpfree-1.tail915674.ts.net.",
-      "hostname": "rdpfree-1"
-    }
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+    },
+    "mode": "tailscale"
   },
   "media": {
-    "wallpaper": "xyverse_configured_for_user_logon",
-    "microphone": "rdp_capture_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "audio_output": "rdp_playback_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
-  },
-  "samp": {
-    "play_tested": false,
-    "directplay": "Enabled",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "gta_installed": false,
-    "netfx3": "Enabled",
-    "status": "dependencies_ready",
-    "samp_installed": false,
-    "directx": "verified_x86_x64",
-    "vcredist": "verified_x86_x64_and_2013_x86"
-  },
-  "games": {
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "samp_installed": false,
-      "game_dir": null,
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "game_environment": {
-    "hypervisor_present": true,
-    "windows_server": true,
-    "runner": "windows-2022",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "play_tested": false
-  },
-  "host_tools": {
-    "winrar": "verified 7.23.0 (vendor trial; license not included)",
-    "vcredist": "verified_current_v14_x86_x64",
-    "xampp": "verified_files_php_apache_config_mariadb_version; services not started",
-    "firewall7777": "verified_TCP_UDP_inbound_rules; not_public_forwarding",
-    "errors": [],
-    "public_port": false
-  },
-  "heartbeat_at": "2026-10-16T03:22:06.7508181Z"
+    "microphone": "rdp_capture_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon"
+  }
 }
